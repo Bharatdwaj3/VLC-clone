@@ -1,0 +1,48 @@
+/* Set the background color of the body to black */
+body {
+    background-color: black;
+  }
+  
+  /* Center the container div vertically and horizontally */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Set the width of the video to 100% and height to auto */
+  video {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the default controls of the video player */
+  video::-webkit-media-controls {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  
+  /* Style the progress bar of the video player */
+  video::-webkit-media-controls-enclosure {
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Style the thumb of the progress bar */
+  video::-webkit-media-controls-play-button::-webkit-media-controls-volume-slider::-webkit-media-controls-current-time-display::-webkit-media-controls-time-remaining-display::-webkit-media-controls-timeline::-webkit-media-controls-timeline-thumb {
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  /* Style the volume slider of the video player */
+  video::-webkit-media-controls-volume-slider {
+    height: 4px;
+  }
+  
+  /* Hide the fullscreen button */
+  video::-webkit-media-controls-fullscreen-button {
+    display: none;
+  }
+  
